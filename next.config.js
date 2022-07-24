@@ -14,7 +14,8 @@ const nextConfig = {
     return [
       {
         // matching all API routes
-        source: "/api/(.*)",
+        // source: "/api/(.*)",
+        source: "/stcss.less",
         headers: [
           { key: "Access-Control-Allow-Credentials", value: "true" },
           { key: "Access-Control-Allow-Origin", value: "*" },
