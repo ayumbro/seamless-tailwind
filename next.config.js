@@ -5,10 +5,10 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/stcss.less',
-        destination: '/api/stcss',
-      }
-    ]
+        source: "/stcss.less",
+        destination: "/api/stcss",
+      },
+    ];
   },
   async headers() {
     return [
@@ -29,8 +29,8 @@ const nextConfig = {
           },
         ],
       },
-    ]
+    ];
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
